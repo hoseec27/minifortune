@@ -394,6 +394,8 @@ int main(int argc, char *argv[]) {
     bool fortune_rot13;
     char *fortune = NULL;
 
+    //comment just testing
+
     /* Choose a random fortune position from the .dat file */
     if (choose_random_fortune_pos(&fortune_pos, &fortune_delim, &fortune_rot13, dat_path) < 0)
         exit(EXIT_FAILURE);
